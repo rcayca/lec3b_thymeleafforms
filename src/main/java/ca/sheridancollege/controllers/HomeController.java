@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 // Another change
 
 // Just a commit
+
+// added a comment
 @Controller
 public class HomeController {
     @GetMapping("/registerpage")
