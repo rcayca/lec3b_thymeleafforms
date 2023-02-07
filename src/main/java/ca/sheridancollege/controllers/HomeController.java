@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 // Just a commit
 
 // added a comment
+
+// add to branch 1
 @Controller
 public class HomeController {
     @GetMapping("/registerpage")
