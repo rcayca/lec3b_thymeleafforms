@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 // This is a random commit comment. Commit 2
+
+// Random change here
 @Controller
 public class HomeController {
     @GetMapping("/registerpage")
