@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="|${user.firstName} ${user.lastName}|">Welcome</title>
+</head>
+<body>
+    <h1 th:inline="text"><p>Welcome to your page </p>
+        First Name: [[${user.firstName}]] <br>
+        Last Name: [[${user.lastName}]] <br>
+        Address: [[${user.address}]] <br>
+        [[${user.remember} ? 'You are remembered' : 'You are forgotten']]
+    </h1>
+</body>
+</html>
